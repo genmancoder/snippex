@@ -58,5 +58,15 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
     <script src="https://static.addtoany.com/menu/page.js"></script>
+    <script type="text/javascript">
+      var KotN = {
+          shop:'{shop}',
+          apiKey: '{apiKey}',
+          shopOrigin: 'https://{shop}.myshopify.com',
+          locale:'{locale}' || (navigator.languages ? (navigator.language || navigator.languages[0]) : (navigator.userLanguage || navigator.browerLanguage))
+      };
+
+      // console.log(KotN.shop);
+    </script>
   </body>
 </html>
